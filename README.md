@@ -1,12 +1,12 @@
 `Welcome to my github profile!`
-```javascript
+```js
 class Person {
   constructor() {
     this.person = "stranger";
   }
 
   get hi() {
-    return "Hi " + this.person + "!";
+    return `Hi ${this.person}!`;
   }
 
   set hi(arg) {
