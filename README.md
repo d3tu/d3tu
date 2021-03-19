@@ -1,16 +1,24 @@
-### Hi there 👋
+# ![d3tu](wait) Hello people!
 
-<!--
-**d3tu/d3tu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Welcome a my github profile!
+```javascript
+class Person {
+  constructor() {
+    this.person = "stranger";
+  }
 
-Here are some ideas to get you started:
+  get hi() {
+   return "Hi " + this.person + "!";
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  set hi(arg) {
+     this.person = arg;
+  }
+}
+
+var person = new Person();
+
+person.hi = "d3tu";
+
+alert(person.hi); // Hi d3tu!
+```
