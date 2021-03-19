@@ -1,4 +1,4 @@
-# ![d3tu](wait) Hello people!
+# Hello people!
 
 > Welcome a my github profile!
 ```javascript
