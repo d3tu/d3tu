@@ -1,4 +1,4 @@
-`Welcome a my github profile!`
+`Welcome to my github profile!`
 ```javascript
 class Person {
   constructor() {
