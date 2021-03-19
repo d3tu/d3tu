@@ -2,7 +2,7 @@
 ```js
 class Person {
   constructor() {
-    this.person = "stranger";
+    this.person = "person";
   }
 
   get hi() {
