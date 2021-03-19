@@ -1,5 +1,5 @@
 `Welcome to my github profile!`
-```javascript
+```js
 class Person {
   constructor() {
     this.person = "stranger";
