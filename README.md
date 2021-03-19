@@ -7,11 +7,11 @@ class Person {
   }
 
   get hi() {
-   return "Hi " + this.person + "!";
+    return "Hi " + this.person + "!";
   }
 
   set hi(arg) {
-     this.person = arg;
+    this.person = arg;
   }
 }
 
